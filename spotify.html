@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player</title>
+    <link rel="stylesheet" href="sp.css">
+</head> 
+<body>      
+    <nav>
+        <ul>
+            <li class="brand"><img src="s.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+    <div class="songList">
+    <h1>My Best Picks</h1>
+    <div>
+        <div class="songItem">
+        <img src="cover1.webp" alt="1">
+        <span class="songName">Chicken Burger - Drank Ocean</span>
+        <span class="songListplay"><span class="timestamp">00:18</span> <img src="play.png" id="0"></span>
+        </div>
+
+         <div class="songItem">
+         <img src="cover1.webp" alt="1">
+         <span class="songName">Nikes - Frank Ocean</span>  
+         <span class="songListplay"><span class="timestamp">05:14</span> <img src="play.png" id="1"></span>
+         </div>
+
+         <div class="songItem">
+         <img src="cover1.webp" alt="1">
+         <span class="songName">Hothon Se Choo Loo - Jagjit Singh</span>
+         <span class="songListplay"><span class="timestamp">06:12</span> <img src="play.png" id="2"></span>
+         </div>
+        
+         <div class="songItem">
+         <img src="cover1.webp" alt="1">
+         <span class="songName">Count Me Out - Kendrick Lamar</span>
+         <span class="songListplay"><span class="timestamp">04:43</span> <img src="play.png" id="3"></span>
+         </div>
+         
+        <div class="songItem">
+        <img src="cover1.webp" alt="1">
+        <span class="songName">Here Comes Your Man - Pixies</span>
+        <span class="songListplay"><span class="timestamp">03:21</span> <img src="play.png" id="4"></span>
+        </div>
+
+        <div class="songItem">
+            <img src="cover1.webp" alt="1">
+            <span class="songName">Ode To The Mets - Strokes</span>
+            <span class="songListplay"><span class="timestamp">05:13</span> <img src="play.png" id="5"></span>
+            </div>
+    </div>
+
+    </div>
+    <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+       
+    <input type="range" name="range" id="progressBar" min="0" max="100">
+    <div class="icons">
+     <li><img src="back.png" id="prev"></li>
+     <li><img src="play.png" id="masterPlay"></li>
+     <li><img src="next.png" id="next"></li>
+
+    </div>
+    <div class="songInfo">
+      <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName"> Chicken Burger - Drank Ocean</span>
+    </div>
+    </div>
+    <script src="s.js"></script>
+</body>
+</html>
